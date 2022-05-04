@@ -12,3 +12,6 @@ publish: #run publish package in PyPI
 
 package-install: #install package
 	python3 -m pip install --user dist/*.whl
+
+lint: #linter for code
+	poetry run flake8 brain_games
