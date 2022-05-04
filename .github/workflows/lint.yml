@@ -5,10 +5,9 @@ jobs:
   build:
    runs-on: ubuntu-latest
    steps:
-     - uses: actions/checkout@v2
-     - name: install dependecies
-       run: |
-	pip install poetry
-	make install
-     - name: run test and linter	
-        run: make lint
+	- uses: actions/checkout@v2
+	- name: install dependecies
+	run: pip install poetry
+	run: make install
+	- name: run test and linter	
+	run: make lint
