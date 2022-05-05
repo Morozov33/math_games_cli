@@ -7,3 +7,6 @@
 [![Maintainability](https://api.codeclimate.com/v1/badges/31d0d1d272b4da4f88cf/maintainability)](https://codeclimate.com/github/Morozov33/python-project-lvl1/maintainability)
 
 [![Test Coverage](https://api.codeclimate.com/v1/badges/31d0d1d272b4da4f88cf/test_coverage)](https://codeclimate.com/github/Morozov33/python-project-lvl1/test_coverage)
+
+### Records test from Asciinema:
+[![asciicast](https://asciinema.org/a/M6Uo0B8HlBd6B2osPNd9m5SDh.svg)](https://asciinema.org/a/M6Uo0B8HlBd6B2osPNd9m5SDh)
