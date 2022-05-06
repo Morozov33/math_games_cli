@@ -2,6 +2,7 @@
 
 import random
 import prompt
+import math
 
 
 def task_of_game(name_user, count_true_answer, true_answer):
@@ -33,17 +34,28 @@ def initial_conditions(name_of_game):
         return(true_answer, number)
 
     elif name_of_game == 'calc':
-        number_1 = random.randint(1, 10)
-        number_2 = random.randint(1, 10)
-        sign = random.choice('+-*')
+        (true_answer, number_1, number_2, sign) = initial_conditions_calc()
+        return(true_answer, number_1, number_2, sign)
 
-        if sign == '+':
-            true_answer = number_1 + number_2
+    elif name_of_game == 'gcd':
+        number_1 = random.randint(1, 50)
+        number_2 = random.randint(1, 50)
+        true_answer = math.gcd(number_1, number_2)
+        return(true_answer, number_1, number_2)
 
-        elif sign == '-':
-            true_answer = number_1 - number_2
 
-        elif sign == '*':
-            true_answer = number_1 * number_2
+def initial_conditions_calc():
 
+    number_1 = random.randint(1, 10)
+    number_2 = random.randint(1, 10)
+    sign = random.choice('+-*')
+
+    if sign == '+':
+        true_answer = number_1 + number_2
+
+    elif sign == '-':
+        true_answer = number_1 - number_2
+
+    elif sign == '*':
+        true_answer = number_1 * number_2
     return(true_answer, number_1, number_2, sign)

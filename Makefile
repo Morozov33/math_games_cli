@@ -19,3 +19,6 @@ brain-even: #run brain-even
 
 brain-calc: #run brain-calc
 	poetry run brain-calc
+
+brain-gcd: #run brain-gcd
+	poetry run brain-gcd

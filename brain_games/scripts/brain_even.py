@@ -1,13 +1,13 @@
 #!/urs/bin/evn python
 
-"""Scripts for starting game_1"""
+"""Scripts for starting game_even"""
 
 
-from brain_games.game_1 import game_1
+from brain_games.games.game_even import game_even
 
 
 def main():
-    game_1()
+    game_even()
 
 
 if __name__ == '__main__':
