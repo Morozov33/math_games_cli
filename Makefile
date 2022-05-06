@@ -1,9 +1,6 @@
 install: #install poetry
 	poetry install
 
-brain-games: #run brain-games
-	poetry run brain-games
-
 build: #run build package
 	poetry build
 
@@ -19,3 +16,6 @@ lint: #linter for code
 
 brain-even: #run brain-even
 	poetry run brain-even
+
+brain-calc: #run brain-calc
+	poetry run brain-calc
