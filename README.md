@@ -10,4 +10,7 @@
 
 ### Records test from Asciinema:
 [![asciicast](https://asciinema.org/a/M7Uo0B8HlBd6B2osPNd9m5SDh.svg)](https://asciinema.org/a/M6Uo0B8HlBd6B2osPNd9m5SDh)
+
 [![asciicast](https://asciinema.org/a/GvzKfIKrbhOa0MKJEJkhSJW6F.svg)](https://asciinema.org/a/GvzKfIKrbhOa0MKJEJkhSJW6F)
+
+[![asciicast](https://asciinema.org/a/GxyOh0n5riXQMkT8N4vGvachh.svg)](https://asciinema.org/a/GxyOh0n5riXQMkT8N4vGvachh)
