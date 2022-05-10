@@ -47,8 +47,8 @@ def initial_conditions_progression():
     progression = list(range(start_prog, end_prog, step_prog))
     hidden_element = random.randint(0, len(progression) - 1)
     true_answer = progression[hidden_element]
-    progression[hidden_element] = '...'
-    progression = " , ".join(map(str, progression))
+    progression[hidden_element] = '..'
+    progression = " ".join(map(str, progression))
     return(true_answer, progression)
 
 
