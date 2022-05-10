@@ -22,3 +22,6 @@ brain-calc: #run brain-calc
 
 brain-gcd: #run brain-gcd
 	poetry run brain-gcd
+
+brain-progression: #run brain-progression
+	poetry run brain-progression
