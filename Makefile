@@ -14,6 +14,9 @@ package-install: #install package
 lint: #linter for code
 	poetry run flake8 brain_games
 
+brain-games: #run greeting
+	poetry run brain-games
+
 brain-even: #run brain-even
 	poetry run brain-even
 

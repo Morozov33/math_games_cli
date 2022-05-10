@@ -15,7 +15,7 @@ def game_calc():
 
     while count_true_answer < 3:
         (true_answer, number_1, number_2, sign) = initial_conditions_calc()
-        print(f'Question: {number_1} {sign} {number_2} = ?')
+        print(f'Question: {number_1} {sign} {number_2}')
         count_true_answer = task_of_game(name_user, count_true_answer,
                                          true_answer)
 

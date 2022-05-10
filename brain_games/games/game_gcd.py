@@ -14,8 +14,7 @@ def game_gcd():
 
     while count_true_answer < 3:
         (true_answer, number_1, number_2) = initial_conditions_gdc()
-        print(f'Hint: {true_answer}')
-        print(f'Question: {number_1} and {number_2} = ?')
+        print(f'Question: {number_1} {number_2}')
         count_true_answer = task_of_game(name_user, count_true_answer,
                                          true_answer)
 

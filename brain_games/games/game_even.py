@@ -10,13 +10,12 @@ def game_even():
     """Start game number one"""
 
     name_user = welcome_user()
-    print('Please, answer "yes" if the number is even, otherwise answer "no". '
-          'You are ready?')
+    print('Answer "yes" if the number is even, otherwise answer "no".')
     count_true_answer = 0
 
     while count_true_answer < 3:
         (true_answer, number) = initial_conditions_even()
-        print(f'Question: {number} is even number?')
+        print(f'Question: {number}')
         count_true_answer = task_of_game(name_user, count_true_answer,
                                          true_answer)
 

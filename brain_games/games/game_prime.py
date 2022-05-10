@@ -15,7 +15,7 @@ def game_prime():
 
     while count_true_answer < 3:
         (true_answer, number) = initial_conditions_prime()
-        print(f'Question: {number} is prime?')
+        print(f'Question: {number}')
         count_true_answer = task_of_game(name_user, count_true_answer,
                                          true_answer)
 

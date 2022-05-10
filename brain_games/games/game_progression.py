@@ -14,7 +14,6 @@ def game_progression():
 
     while count_true_answer < 3:
         (true_answer, progression) = initial_conditions_progression()
-        print(f'Hint: {true_answer}')
         print(f'Question: {progression}')
         count_true_answer = task_of_game(name_user, count_true_answer,
                                          true_answer)

@@ -12,8 +12,8 @@ def task_of_game(name_user, count_true_answer, true_answer):
         return count_true_answer
 
     elif user_answer != true_answer:
-        print(f'Oh, sorry, \"{user_answer}\" is not wrong answer :((\n'
-              f'Correct answer is \"{true_answer}\".\n'
+        print(f'\'{user_answer}\' is not wrong answer ;(.'
+              f'Correct answer was \'{true_answer}\'.\n'
               f'Let\'s try again, {name_user}!')
         count_true_answer = 4
         return count_true_answer
@@ -21,4 +21,4 @@ def task_of_game(name_user, count_true_answer, true_answer):
 
 def win(name_user):
 
-    return(print(f'Congratulations, {name_user}! You win!'))
+    return(print(f'Congratulations, {name_user}!'))
