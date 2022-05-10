@@ -55,7 +55,7 @@ def initial_conditions_progression():
 def initial_conditions_prime():
 
     number = random.randint(1, 30)
-    true_answer = 'yes' if is_prime(number) == True else 'no'
+    true_answer = 'yes' if is_prime(number) is True else 'no'
 
     return(true_answer, number)
 
