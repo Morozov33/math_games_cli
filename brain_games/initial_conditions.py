@@ -50,3 +50,26 @@ def initial_conditions_progression():
     progression[hidden_element] = '...'
     progression = " , ".join(map(str, progression))
     return(true_answer, progression)
+
+
+def initial_conditions_prime():
+
+    number = random.randint(1, 30)
+    true_answer = 'yes' if is_prime(number) == True else 'no'
+
+    return(true_answer, number)
+
+
+def is_prime(number):
+
+    d = 2
+
+    while d <= number / 2:
+
+        if number % d != 0:
+            d += 1
+
+        else:
+            return(False)
+
+    return(True)
